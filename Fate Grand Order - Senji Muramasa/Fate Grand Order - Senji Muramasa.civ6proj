@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_CIVILIZATION_SENJI_MURAMASA_MOD_NAME</Name>
+    <Guid>9dd59e55-8e2f-44a6-b291-0cfe5471089f</Guid>
+    <ProjectGuid>5b8b5635-9bd2-4228-bb57-2f0ba4134219</ProjectGuid>
+    <ModVersion>6</ModVersion>
+    <Teaser>LOC_CIVILIZATION_SENJI_MURAMASA_MOD_SPECIAL_TEASER</Teaser>
+    <Description>LOC_CIVILIZATION_SENJI_MURAMASA_MOD_SPECIAL_DESCRIPTION</Description>
+    <Authors>LOC_CIVILIZATION_SENJI_MURAMASA_MOD_AUTHOR</Authors>
+    <SpecialThanks>LOC_CIVILIZATION_SENJI_MURAMASA_MOD_SPECIAL_THANKS</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>Fate Grand Order - Senji Muramasa</AssemblyName>
+    <RootNamespace>Fate Grand Order - Senji Muramasa</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Gameplay/Senji_Muramasa_config.xml</File><File>Gameplay/Senji_Muramasa_config_ep1.xml</File><File>Gameplay/Senji_Muramasa_config_ep2.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Language/Senji_Muramasa_infront.xml</File><File>Language/Senji_Muramasa_mod_desc.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Gameplay/Senji_Muramasa_icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>Gameplay/Senji_Muramasa_requirements.xml</File><File>Gameplay/Senji_Muramasa_leader.xml</File><File>Gameplay/Senji_Muramasa_ui.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>Language/Senji_Muramasa_infront.xml</File><File>Language/Senji_Muramasa_gamein.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>Gameplay/Senji_Muramasa_icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateLogitechARX id="ARX"><Criteria>LeaderCriteria</Criteria><File>ARX/Civ_LEADER_SENJI_MURAMASA.png</File></UpdateLogitechARX></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_SENJI_MURAMASA,Players:Expansion1_Players::LEADER_SENJI_MURAMASA,Players:Expansion2_Players::LEADER_SENJI_MURAMASA</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <Homepage>https://steamcommunity.com/id/HaoJun0823/</Homepage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Gameplay" />
+    <Folder Include="Language" />
+    <Folder Include="ARX" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ARX\Civ_LEADER_SENJI_MURAMASA.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\Senji_Muramasa_config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\Senji_Muramasa_config_ep1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\Senji_Muramasa_config_ep2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\Senji_Muramasa_icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\Senji_Muramasa_leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\Senji_Muramasa_requirements.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\Senji_Muramasa_ui.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Language\Senji_Muramasa_gamein.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Language\Senji_Muramasa_infront.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Language\Senji_Muramasa_mod_desc.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

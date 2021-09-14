@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Senji_Muramasa_leader -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/23/2018 11:59:37 AM -->
+<GameData>
+	<Types>
+	<Row Type="LEADER_SENJI_MURAMASA" Kind="KIND_LEADER"/>
+	<Row Type="TRAIT_SENJI_MURAMASA" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_JAPAN" LeaderType="LEADER_SENJI_MURAMASA" CapitalName="LOC_CITY_NAME_KYOTO"/>
+	</CivilizationLeaders>
+	
+	
+	
+	<Leaders>
+		<Row LeaderType="LEADER_SENJI_MURAMASA" NAME="LOC_LEADER_SENJI_MURAMASA_NAME" InheritFrom="LEADER_DEFAULT" Sex="Male" />
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_SENJI_MURAMASA" Quote="LOC_LEADER_SENJI_MURAMASA_QUOTE"/>
+	</LeaderQuotes>
+
+	<LeaderTraits>
+
+
+
+		<Row LeaderType="LEADER_SENJI_MURAMASA" TraitType="TRAIT_SENJI_MURAMASA"/>
+		
+	</LeaderTraits>
+
+	<Traits>
+
+		<Row TraitType="TRAIT_SENJI_MURAMASA" NAME="LOC_LEADER_ABILITY_SENJI_MURAMASA_NAME" Description="LOC_LEADER_ABILITY_SENJI_MURAMASA_DESCRIPTION"/>
+
+
+	</Traits>
+
+	<TraitModifiers>
+
+		<Row TraitType="TRAIT_SENJI_MURAMASA" ModifierId="TRAIT_SENJI_MURAMASA_COMBAT"/>
+		<Row TraitType="TRAIT_SENJI_MURAMASA" ModifierId="TRAIT_SENJI_MURAMASA_CITY_PRODUCTION"/>
+		<Row TraitType="TRAIT_SENJI_MURAMASA" ModifierId="TRAIT_SENJI_MURAMASA_CITY_CULTURE"/>
+		<Row TraitType="TRAIT_SENJI_MURAMASA" ModifierId="TRAIT_SENJI_MURAMASA_CITY_SCIENCE"/>
+	</TraitModifiers>
+
+	<Modifiers>
+
+		<Row>
+			<ModifierId>TRAIT_SENJI_MURAMASA_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>SENJI_MURAMASA_REQUIRES_UNIT_IS_MELEE</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_SENJI_MURAMASA_CITY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>SENJI_MURAMASA_REQUIRES_CITY_HAS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SENJI_MURAMASA_CITY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>SENJI_MURAMASA_REQUIRES_CITY_HAS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SENJI_MURAMASA_CITY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>SENJI_MURAMASA_REQUIRES_CITY_HAS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+
+
+
+	</Modifiers>
+
+	<ModifierArguments>
+
+		<Row>
+			<ModifierId>TRAIT_SENJI_MURAMASA_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_SENJI_MURAMASA_CITY_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>TRAIT_SENJI_MURAMASA_CITY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_SENJI_MURAMASA_CITY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SENJI_MURAMASA_CITY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_SENJI_MURAMASA_CITY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SENJI_MURAMASA_CITY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+
+
+	</ModifierArguments>
+
+	<ModifierStrings>
+
+		<Row ModifierId="TRAIT_SENJI_MURAMASA_COMBAT" Context="Preview" Text="LOC_TRAIT_SENJI_MURAMASA_COMBAT_DESCRIPTION"/>
+
+	</ModifierStrings>
+
+
+	<HistoricalAgendas>
+
+		<Row LeaderType="LEADER_SENJI_MURAMASA" AgendaType="AGENDA_BUSHIDO"/>
+		
+	</HistoricalAgendas>
+
+	<FavoredReligions>
+		<Row LeaderType="LEADER_SENJI_MURAMASA" ReligionType="RELIGION_SHINTO"/>
+	</FavoredReligions>
+
+	<AiListTypes>
+		<Row ListType="SENJI_MURAMASA_BUILDINGS" />
+		<Row ListType="SENJI_MURAMASA_CIVICS" />
+		<Row ListType="SENJI_MURAMASA_TECHS" />
+		<Row ListType="SENJI_MURAMASA_UNITS" />
+
+	</AiListTypes>
+
+	<AiLists>
+
+		<Row ListType="SENJI_MURAMASA_BUILDINGS" LeaderType="LEADER_SENJI_MURAMASA" System="Buildings"/>
+		<Row ListType="SENJI_MURAMASA_CIVICS" LeaderType="LEADER_SENJI_MURAMASA" System="Civics"/>
+		<Row ListType="SENJI_MURAMASA_TECHS" LeaderType="LEADER_SENJI_MURAMASA" System="Technologies"/>
+		<Row ListType="SENJI_MURAMASA_UNITS" LeaderType="LEADER_SENJI_MURAMASA" System="UnitPromotionClasses"/>
+
+
+
+	</AiLists>
+
+	<AiFavoredItems>
+
+		<Row ListType="SENJI_MURAMASA_CIVICS" Item="CIVIC_DEFENSIVE_TACTICS" Favored="true"/>
+		<Row ListType="SENJI_MURAMASA_CIVICS" Item="CIVIC_NUCLEAR_PROGRAM" Favored="true"/>
+
+
+		<Row ListType="SENJI_MURAMASA_TECHS" Item="TECH_ELECTRICITY" Favored="true"/>
+		<Row ListType="SENJI_MURAMASA_TECHS" Item="TECH_MILITARY_TACTICS" Favored="true"/>
+		<Row ListType="SENJI_MURAMASA_TECHS" Item="TECH_IRON_WORKING" Favored="true"/>
+
+		<Row ListType="SENJI_MURAMASA_BUILDINGS" Item="BUILDING_COLOSSEUM" Favored="true"/>
+		<Row ListType="SENJI_MURAMASA_BUILDINGS" Item="BUILDING_FORBIDDEN_CITY" Favored="true"/>
+		<Row ListType="SENJI_MURAMASA_BUILDINGS" Item="BUILDING_TERRACOTTA_ARMY" Favored="true"/>
+		<Row ListType="SENJI_MURAMASA_BUILDINGS" Item="BUILDING_ELECTRONICS_FACTORY" Favored="true"/>
+		
+		
+
+		<Row ListType="SENJI_MURAMASA_UNITS" Item="PROMOTION_CLASS_MELEE" Value="10"/>
+		
+	</AiFavoredItems>
+
+</GameData>

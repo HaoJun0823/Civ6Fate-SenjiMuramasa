@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Senji_Muramasa_ui -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/23/2018 11:59:10 AM -->
+<GameData>
+
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_SENJI_MURAMASA_PRIMARY</Type>
+			<Color>127,52,61,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_SENJI_MURAMASA_SECONDARY</Type>
+			<Color>198,167,92,255</Color>
+		</Row>
+	</Colors>
+	
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_SENJI_MURAMASA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_SENJI_MURAMASA_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_SENJI_MURAMASA_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_ORANGE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+
+
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_SENJI_MURAMASA" ForegroundImage="LEADER_SENJI_MURAMASA_NEUTRAL_2" BackgroundImage="LEADER_SENJI_MURAMASA_BACKGROUND_LOAD" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_SENJI_MURAMASA" BackgroundImage="LEADER_SENJI_MURAMASA_BACKGROUND"/>
+	</DiplomacyInfo>
+
+</GameData>

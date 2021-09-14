@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Senji_Muramasa_config_ep2 -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 2019/2/14 21:14:12 -->
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderType>LEADER_SENJI_MURAMASA</LeaderType>
+
+			<!-- Config Text -->
+			<CivilizationName>LOC_CIVILIZATION_JAPAN_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_JAPAN_SENJI_MURAMASA</CivilizationIcon>
+
+			<!-- Config Text -->
+			<LeaderName>LOC_LEADER_SENJI_MURAMASA_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_SENJI_MURAMASA</LeaderIcon>
+
+			<!-- Mod Text -->
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_JAPAN_SENJI_MURAMASA</CivilizationAbilityIcon>
+
+			<!-- Config Text-->
+			<LeaderAbilityName>LOC_LEADER_ABILITY_SENJI_MURAMASA_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_LEADER_ABILITY_SENJI_MURAMASA_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_SENJI_MURAMASA</LeaderAbilityIcon>
+
+			<Portrait>LEADER_SENJI_MURAMASA_NEUTRAL</Portrait>
+
+		</Row>
+
+
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderType>LEADER_SENJI_MURAMASA</LeaderType>
+			<Type>UNIT_JAPANESE_SAMURAI</Type>
+			<Name>LOC_UNIT_JAPANESE_SAMURAI_NAME</Name>
+			<Description>LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_JAPANESE_SAMURAI</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderType>LEADER_SENJI_MURAMASA</LeaderType>
+			<Type>BUILDING_ELECTRONICS_FACTORY</Type>
+			<Name>LOC_BUILDING_ELECTRONICS_FACTORY_NAME</Name>
+			<Description>LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_ELECTRONICS_FACTORY</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+	</PlayerItems>
+
+
+</GameData>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Senji_Muramasa_infront -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/23/2018 3:46:05 PM -->
+<GameData>
+
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_SENJI_MURAMASA_NAME" Language="en_US">
+			<Text>Senji Muramasa</Text>
+		</Row>
+
+
+		<Row Tag="LOC_LEADER_ABILITY_SENJI_MURAMASA_NAME" Language="en_US">
+			<Text>Tsumugari Muramasa</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_ABILITY_SENJI_MURAMASA_DESCRIPTION" Language="en_US">
+			<Text>All melee units +10 [ICON_Strength][NEWLINE]If city has a military area, increase 100% [ICON_Production], 50% [ICON_Culture], 50% [ICON_Science]</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_SENJI_MURAMASA_NAME" Language="zh_Hans_CN">
+			<Text>千子村正</Text>
+		</Row>
+
+
+		<Row Tag="LOC_LEADER_ABILITY_SENJI_MURAMASA_NAME" Language="zh_Hans_CN">
+			<Text>都牟刈村正</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_ABILITY_SENJI_MURAMASA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有肉搏单位 +10 [ICON_Strength][NEWLINE]如果城市拥有军事区域，增加城市 100% [ICON_Production]，50% [ICON_Culture]，50% [ICON_Science]</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_SENJI_MURAMASA_NAME" Language="zh_Hant_HK">
+			<Text>千子村正</Text>
+		</Row>
+
+
+		<Row Tag="LOC_LEADER_ABILITY_SENJI_MURAMASA_NAME" Language="zh_Hant_HK">
+			<Text>都牟刈村正</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_ABILITY_SENJI_MURAMASA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>所有肉搏單位 +10 [ICON_Strength][NEWLINE]如果城市擁有軍事區域，增加城市 100% [ICON_Production]，50% [ICON_Culture]，50% [ICON_Science]</Text>
+		</Row>
+		
+
+
+	</LocalizedText>
+	
+</GameData>
